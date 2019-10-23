@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/colorBackground"
+        android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/zup">
+    </ImageView>
+    <View
+        android:background="@drawable/layoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_height="6dp">
+
+    </View>
+
+
+    <TextView
+        android:layout_marginLeft="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBtnEnviar"
+        android:text="Informe seu Nome"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/nome"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBtnEnviar"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="informe seu sobrenome"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/Sobrenome"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/colorBtnEnviar"
+        android:textAllCaps="true"
+        android:text="insira seu telefone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:id="@+id/telefone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBtnEnviar"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="insira seu celular"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:id="@+id/celular"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/colorBtnEnviar"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="informe seu cpf"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/cpf"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/colorBtnEnviar"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="Selecione sua Escolaridade"/>
+    <Spinner
+        android:layout_marginBottom="3dp"
+        android:id="@+id/idescolaridade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="@color/colorBtnView"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/colorBtnEnviar"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="informe seu endereço"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/endereco"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/colorBtnEnviar"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="informe seu bairro"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/bairro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/colorBtnEnviar"
+        android:text="selecione seu estado"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"/>
+    <View
+        android:layout_marginTop="5dp"
+        android:background="@color/colorBtnView"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/colorBtnEnviar"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="Informe sua senha"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/senha"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/colorBtnEnviar"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="confirme sua senha"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/senhavalidacao"/>
+
+    <Button
+        android:background="@drawable/botao"
+        android:textColor="@color/colorBtnForm"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Enviar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"/>
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
